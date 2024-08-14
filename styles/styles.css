@@ -600,3 +600,31 @@ hr{
     text-align: center;
     padding-bottom: 36px;
 }
+
+.hamicon{
+    display: none;
+}
+/* Responsive Media Query */
+@media screen and (max-width:600px) {
+    header, main, footer, .footer-section{
+        margin: 32px;
+    }
+
+    nav{
+        margin: 0px;
+        flex-direction: row;
+        justify-content: left;
+    }
+    nav > ul {
+        display: none;
+
+    }
+    nav>.hamicon{
+        display: block;
+        height: 40px;
+        margin-left: 140px;
+    }
+    .banner-section, .habit-items, .package-items, .run-section, .chart-section, .team-members, .team-members-one, .team-members-two{
+        flex-direction: column;
+    }
+}
