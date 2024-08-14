@@ -1,0 +1,306 @@
+/* Inter font family from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
+
+/* shared styles */
+*{
+    font-family: 'inter', sans-serif;
+    
+}
+.shape{
+    color: #FFF;
+    font-family: Miama;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120%;
+}
+body{
+    background-color: black;
+    margin: 58px 190px;
+    
+}
+
+/* header related styles */
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+    margin: 0px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-title{
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0px;
+}
+
+.primary-manu{
+    color: white;
+    background-color: #E6533C;
+    font-weight: 700;
+    display: flex;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+nav > ul {
+    display: flex;
+    padding: 10px 0px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav a, li{
+    text-decoration: none;
+    color: White;
+}
+
+/* banner section styles */
+.banner-section{
+    background: url(../images/banner-image.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 54px;
+    margin: 32px 0;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 24px 0;
+    margin: 64px 0px;
+}
+
+.banner-title{
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 0;
+}
+
+.banner-des{
+    color: #FFFFFF80;
+    width: 460px;
+    margin-bottom: 28px;
+}
+
+.banner-btns{
+    display: flex;
+    gap: 14px;
+}
+.ban-btn1, .ban-btn2{
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 18px;
+}
+
+.ban-btn1{
+    background: #E6533C;
+    border: none;
+}
+.ban-btn2{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.banner-tags{
+    display: flex;
+    flex: 1;
+    gap: 220px;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.banner-tag1, .banner-tag2{
+    width: 193px;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF1A;
+    background: #FFFFFF1A;
+    backdrop-filter: blur(10px);
+    padding-top: 16px;
+    margin: 0;
+}
+.banner-tag1{
+    margin-left: 420px;
+}
+.banner-tag2{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: left;
+    margin-left: 60px;
+}
+
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    margin-left: 24px;
+    border-radius: 50%;
+}
+.tag1-title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+    padding-left: 24px;
+}
+
+.tag1-des{
+    padding-left: 24px;
+    font-size: 13px;
+    color:#FFFFFF80;
+    margin-top: 8px;
+}
+
+.tag2-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+}
+
+.tag2-des{
+    font-size: 13px;
+    color:#FFFFFF80;
+    margin-top: 8px;
+}
+
+/* habit section */
+.habit-section{
+    margin: 100px 0;
+}
+.habit-content, .package-content{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.habit-title, .package-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+.habit-des, .package-des{
+    color: #FFFFFF80;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    width: 671px;
+    margin: auto;
+}
+
+.habit-items{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.habit-item, .package-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.habit-img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.habit-item-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0; 
+}
+
+.habit-item-des{
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+
+.package-items{
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.package-item{
+    background-color: #dedbdb;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 1px gainsboro;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-name{
+    color: #E6533C;
+}
+
+.package-price{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 0; 
+}
+
+.taka{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.save{
+    color: red;
+    margin: 8px 0;
+}
+
+.package-btn{
+    background: #E6533C;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
