@@ -624,7 +624,18 @@ hr{
         height: 40px;
         margin-left: 140px;
     }
-    .banner-section, .habit-items, .package-items, .run-section, .chart-section, .team-members, .team-members-one, .team-members-two{
+    .banner-section, .habit-items, .package-items, .run-section, .chart-section, .team-members, .team-members-one, .team-members-two, .footer-section{
         flex-direction: column;
     }
+    .footer-section{
+        padding: 20px;
+    }
+    .footer-des{
+        color: #FFFFFF80;
+        width: 100%;
+    }
+    hr{
+        border: 1px solid white;
+        margin: 10px;
+     }
 }
