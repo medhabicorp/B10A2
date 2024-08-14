@@ -150,7 +150,7 @@ nav a, li{
     margin: 0;
 }
 .banner-tag1{
-    margin-left: 420px;
+    margin-left: 350px;
 }
 .banner-tag2{
     display: flex;
@@ -383,7 +383,7 @@ nav a, li{
 }
 
 .team-member-img{
-    width: 326px;
+    width: 290px;
     height: 272px;
     border-radius: 18px;
 }
@@ -508,7 +508,7 @@ footer{
     line-height: 120%;
 }
 .get-started-1{
-    margin-right: 120px;
+    margin-right: 90px;
 }
 
 hr{
