@@ -113,14 +113,14 @@ nav a, li{
     display: flex;
     gap: 14px;
 }
-.ban-btn1, .ban-btn2{
+.ban-btn1, .ban-btn2, .run-btn{
     color: white;
     padding: 16px 40px;
     border-radius: 42px;
     font-size: 18px;
 }
 
-.ban-btn1{
+.ban-btn1, .run-btn{
     background: #E6533C;
     border: none;
 }
@@ -203,14 +203,14 @@ nav a, li{
     text-align: center;
     margin-bottom: 54px;
 }
-.habit-title, .package-title{
+.habit-title, .package-title, .run-title{
     color: #FFF;
     font-size: 48px;
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 12px;
 }
-.habit-des, .package-des{
+.habit-des, .package-des, {
     color: #FFFFFF80;
     font-size: 14px;
     text-align: center;
@@ -303,4 +303,43 @@ nav a, li{
     color: white;
     font-weight: 600;
     margin-bottom: 32px;
+}
+
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    border-radius: 18px;
+    background: #222;
+    margin: 100px 0;
+
+}
+
+.run-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px 42px;
+    gap: 10px;
+}
+
+.run-img{
+    width: 380px;
+    height: 340px;
+    border: none;
+    border-radius: 18px;
+    margin: 30px;
+}
+.run-title{
+    margin-top: 0;
+}
+
+.run-des{
+    font-size: 14px;
+    color: #ffffff80;
+}
+
+.run-btn{
+    margin-top: 32px;
+    width: 260px;
 }
