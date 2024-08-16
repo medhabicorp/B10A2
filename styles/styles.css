@@ -415,7 +415,7 @@ form{
     margin-bottom: 24px;
 }
 .form-btn{
-    width: 50%;
+    width: 100%;
 }
 input{
     height: 48px;
@@ -423,6 +423,22 @@ input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.10);
     border: none;
+}
+
+.icon-div1, .icon-div2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sex, .factor{
+    position: relative;
+    width: 100%;
+}
+
+.icon1, .icon2{
+    position: absolute;
+    margin-right: 20px;
 }
 
 /* team styles */
